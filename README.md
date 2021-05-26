@@ -1,7 +1,7 @@
 # SADG-Net-for-HOI
 ## Code for Semantic-Aware Dynamic Generation Networks for Few-Shot Human-Object Interaction Recognition
 ### Our paper Semantic-Aware Dynamic Generation Networks for Few-Shot Human-Object Interaction Recognition, has sumitted to IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS (TNNLS).
-## Abtract
+## Abstract
 Recognizing human-object interaction (HOI) aims at inferring various relationships between actions and objects. Although great progress in HOI has been made, long-tail problem and combinatorial explosion problem are still practical challenges. To this end, we formulate HOI as a few-shot task to tackle both challenges, and design a novel dynamic generation method to address this task. The proposed approach is called Semantic-Aware Dynamic Generation Networks (SADG-Net). Specifically, SADG-Net first assigns semantic-aware task representations for different batches of data, which further generates dynamic parameters. It obtains the features that highlight inter-category discriminability and intra-category commonality adaptively. In addition, we also design a dual semantic-aware encoder module, i.e., verb-aware and noun-aware modules, to yield both action and object prototypes of HOI for each task space, which generalizes to novel combinations by transferring similarities among interactions. Extensive experimental results on two benchmark datasets, i.e., HICO-FS and TUHOI-FS, illustrate that our SADG-Net achieves superior performance over state-of-the-art approaches, which proves its impressive effectiveness on few-shot HOI recognition.
 
 Our dataset is HICO-FS and TUHOI-FS
